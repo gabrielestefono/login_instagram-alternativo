@@ -3,6 +3,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-bottom: 2rem;
 }
 
 .app__obtain{
@@ -18,17 +19,16 @@
 
 .app__cards--card{
     margin-top: 0.3rem;
+    margin-bottom: 10px;
 }
 
 .app__cards--card_img1{
     width: 8.3925rem;
     height: 2.5rem;
-    background-color: red;
     margin-right: 0.5rem;
 }
 
 .app__cards--card_img2{
     width: 6.923125rem;
     height: 2.5rem;
-    background-color: red;
 }
