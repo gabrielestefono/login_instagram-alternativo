@@ -45,3 +45,14 @@
 }
 
 .footer__copy--text{}
+
+
+@media screen and (min-width: 450px){
+    .footer{
+        width: calc(100vw - 2rem);
+    }
+
+    .footer__links--item{
+        margin: 0 8px 8px 8px;
+    }
+}
