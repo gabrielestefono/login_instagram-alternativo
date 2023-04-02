@@ -1,4 +1,7 @@
 @import url(reset.css);
+@import url(main/main.css);
+@import url(main/main-display.css);
+@import url(main/main-login.css);
 @import url(login/login.css);
 @import url(login/login-logo.css);
 @import url(login/login-form.css);

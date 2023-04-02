@@ -9,47 +9,52 @@
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-    <section class="login">
-        <div class="login__logo">
-            <img src="assets/img/insta.png" alt="Logo do instagram" class="login__logo--insta">
-        </div>
-        <div class="login__form">
-            <form action="" class="login__form--form">
-                <div class="login__form--form_email">
-                    <input type="text" class="login__form--form_email-input" placeholder="Telefone, nome de usuário ou email">
+    <section class="main">
+        <div class="main__display"></div>
+        <div class="main__login">
+            <article class="login">
+                <div class="login__logo">
+                    <img src="assets/img/insta.png" alt="Logo do instagram" class="login__logo--insta">
                 </div>
-                <div class="login__form--form_pass">
-                    <input type="password" class="login__form--form_pass-input" placeholder="Senha">
+                <div class="login__form">
+                    <form action="" class="login__form--form">
+                        <div class="login__form--form_email">
+                            <input type="text" class="login__form--form_email-input" placeholder="Telefone, nome de usuário ou email">
+                        </div>
+                        <div class="login__form--form_pass">
+                            <input type="password" class="login__form--form_pass-input" placeholder="Senha">
+                        </div>
+                        <div class="login__form--form_login">
+                            <button type="submit" class="login__form--form_login-button">Entrar</button>
+                        </div>
+                        <div class="login__form--form_sep">
+                            <hr class="login__form--form_sep-or"><p class="login__form--form_sep-text">OU</p><hr class="login__form--form_sep-or">
+                        </div>
+                        <div class="login__form--form_facebook">
+                            <img src="assets/img/facebook.svg" alt="" class="login__form--form_facebook-img"><p class="login__form--form_facebook-title"><a href="" class="login__form--form_facebook-link">Entrar com o facebook</a></p>
+                        </div>
+                        <div class="login__form--form_forgot">
+                            <p class="login__form--form_forgot-title"><a href="" class="login__form--form_forgot-link">Esqueceu a senha?</a></p>
+                        </div>
+                    </form>
                 </div>
-                <div class="login__form--form_login">
-                    <button type="submit" class="login__form--form_login-button">Entrar</button>
+            </article>
+            <article class="register">
+                <p class="register__text">Não tem uma conta? <a href="" class="register__link">Cadastre-se</a></p>
+            </article>
+            <article class="app">
+                <div class="app__obtain">
+                    <p class="app__obtain--text">Obtenha o aplicativo</p>
                 </div>
-                <div class="login__form--form_sep">
-                    <hr class="login__form--form_sep-or"><p class="login__form--form_sep-text">OU</p><hr class="login__form--form_sep-or">
+                <div class="app__cards">
+                    <div class="app__cards--card">
+                        <img src="assets/img/gplay.png" alt="" class="app__cards--card_img1">
+                    </div>
+                    <div class="app__cards--card">
+                        <img src="assets/img/microsoft.png" alt="" class="app__cards--card_img2">
+                    </div>
                 </div>
-                <div class="login__form--form_facebook">
-                    <img src="assets/img/facebook.svg" alt="" class="login__form--form_facebook-img"><p class="login__form--form_facebook-title"><a href="" class="login__form--form_facebook-link">Entrar com o facebook</a></p>
-                </div>
-                <div class="login__form--form_forgot">
-                    <p class="login__form--form_forgot-title"><a href="" class="login__form--form_forgot-link">Esqueceu a senha?</a></p>
-                </div>
-            </form>
-        </div>
-    </section>
-    <section class="register">
-        <p class="register__text">Não tem uma conta? <a href="" class="register__link">Cadastre-se</a></p>
-    </section>
-    <section class="app">
-        <div class="app__obtain">
-            <p class="app__obtain--text">Obtenha o aplicativo</p>
-        </div>
-        <div class="app__cards">
-            <div class="app__cards--card">
-                <img src="assets/img/gplay.png" alt="" class="app__cards--card_img1">
-            </div>
-            <div class="app__cards--card">
-                <img src="assets/img/microsoft.png" alt="" class="app__cards--card_img2">
-            </div>
+            </article>
         </div>
     </section>
     <footer class="footer">

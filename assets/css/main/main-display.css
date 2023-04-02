@@ -1,0 +1,13 @@
+@media screen and (min-width: 875px) {
+    .main__display{
+        display: inline-block;
+        background-image: url(../../img/display.png);
+        background-size: 123% 108.7%;
+        background-repeat: no-repeat;
+        background-position: -45px 0;
+        width: 380.312px;
+        height: 581.141px;
+        margin-right: 2rem;
+        margin-bottom: 0.75rem;
+    }
+}
