@@ -1,0 +1,23 @@
+.login{
+    max-width: 450px;
+    width: 100vw;
+    padding-top: 0.75rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.login__logo{
+    width: 10.94rem;
+    height: 3.438rem;
+    margin: 0 auto;
+    margin-top: 2.25rem;
+    margin-bottom: 0.75rem;
+}
+
+.login__logo--insta{
+    width: 10.9375rem;
+    height: 3.188rem;
+    object-fit: cover;
+    object-position: 0px -52px;
+}
+

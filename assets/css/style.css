@@ -1,0 +1,10 @@
+@import url(reset.css);
+@import url(content/login-logo.css);
+@import url(content/login-form.css);
+@import url(register/register.css);
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

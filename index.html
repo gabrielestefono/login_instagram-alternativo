@@ -9,79 +9,35 @@
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-    <header>
-            <img src="assets/img/icons/logo.png" alt="logo do instagram">
-    </header>
-    <section>
-        <div>
-            <form action="">
-                <div>
-                    <label for="">
-                        <span>Telefone, nome de usuário ou email</span>
-                        <input type="text" name="" id="">
-                    </label>
+    <section class="login">
+        <div class="login__logo">
+            <img src="assets/img/insta.png" alt="Logo do instagram" class="login__logo--insta">
+        </div>
+        <div class="login__form">
+            <form action="" class="login__form--form">
+                <div class="login__form--form_email">
+                    <input type="text" class="login__form--form_email-input" placeholder="Telefone, nome de usuário ou email">
                 </div>
-                <div>
-                    <label for="">
-                        <span>Senha</span>
-                        <input type="text" name="" id="">
-                        <a href="">Mostrar</a>
-                    </label>
+                <div class="login__form--form_pass">
+                    <input type="password" class="login__form--form_pass-input" placeholder="Senha">
                 </div>
-                <div>
-                    <button type="submit">Entrar</button>
+                <div class="login__form--form_login">
+                    <button type="submit" class="login__form--form_login-button">Entrar</button>
+                </div>
+                <div class="login__form--form_sep">
+                    <hr class="login__form--form_sep-or"><p class="login__form--form_sep-text">OU</p><hr class="login__form--form_sep-or">
+                </div>
+                <div class="login__form--form_facebook">
+                    <img src="assets/img/facebook.svg" alt="" class="login__form--form_facebook-img"><p class="login__form--form_facebook-title"><a href="" class="login__form--form_facebook-link">Entrar com o facebook</a></p>
+                </div>
+                <div class="login__form--form_forgot">
+                    <p class="login__form--form_forgot-title"><a href="" class="login__form--form_forgot-link">Esqueceu a senha?</a></p>
                 </div>
             </form>
         </div>
-        <div>
-            <hr>
-            <p>OU</p>
-            <hr>
-        </div>
-        <div>
-            <button><img src="assets/img/icons/square-facebook.svg"> Continuar com o Facebook</button>
-        </div>
-        <div>
-            <a href="">Esqueceu sua senha?</a>
-        </div>
-        <div>
-            <p>Não tem uma conta? <a href="">Cadastre-se</a></p>
-        </div>
-        <div>
-            <p>Obtenha o aplicativo</p>
-            <div>
-                <div><img src="" alt=""></div>
-                <div><img src="" alt=""></div>
-            </div>
-        </div>
     </section>
-    <footer>
-        <div>
-            <ul>
-                <a href=""><li>Meta</li></a>
-                <a href=""><li>Sobre</li></a>
-                <a href=""><li>Blog</li></a>
-                <a href=""><li>Carreiras</li></a>
-                <a href=""><li>Ajuda</li></a>
-                <a href=""><li>API</li></a>
-                <a href=""><li>Privacidade</li></a>
-                <a href=""><li>Termos</li></a>
-                <a href=""><li>Principais Contas</li></a>
-                <a href=""><li>Localização</li></a>
-                <a href=""><li>Instagram Lite</li></a>
-                <a href=""><li>Carregamento de contatos não usuários</li></a>
-                <a href=""><li>Meta Verified</li></a>
-            </ul>
-        </div>
-        <div>
-            <select name="">
-                <option value="pt-br">Português (Brasil)</option>
-                <option value="en">English <div></div></option>
-            </select>
-        </div>
-        <div>
-            <p>&copy; 2023 - Instagram from Meta</p>
-        </div>
-    </footer>
+    <section class="register">
+        <p class="register__text">Não tem uma conta? <a href="" class="register__link">Cadastre-se</a></p>
+    </section>
 </body>
 </html>
