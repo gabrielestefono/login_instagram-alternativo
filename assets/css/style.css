@@ -1,7 +1,9 @@
 @import url(reset.css);
-@import url(content/login-logo.css);
-@import url(content/login-form.css);
+@import url(login/login-logo.css);
+@import url(login/login-form.css);
 @import url(register/register.css);
+@import url(app/app.css);
+@import url(footer/footer.css);
 
 body{
     display: flex;
