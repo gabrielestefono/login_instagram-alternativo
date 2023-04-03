@@ -10,4 +10,11 @@
         margin-right: 2rem;
         margin-bottom: 0.75rem;
     }
+
+    .main__display--screenshots{
+        width: 15.625rem;
+        height: 33.676875rem;
+        margin-left: 7.1rem;
+        margin-top: 1.6rem;
+    }
 }

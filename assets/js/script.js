@@ -64,3 +64,40 @@ button.addEventListener('click', ()=>{
         inputPass.type = 'password'
     }
 })
+
+
+
+//-----------------------------------------------------------------------------------------------------------------------------------------//
+
+/* Imagens dinâmicas no telefone do display */
+
+
+let display = document.getElementById('display');
+var click = 0;
+
+let img1 = 'url(assets/img/screenshot1.png)';
+let img2 = 'url(assets/img/screenshot2.png)';
+let img3 = 'url(assets/img/screenshot3.png)';
+let img4 = 'url(assets/img/screenshot4.png)';
+
+
+let trocarImagem = ()=>{
+    console.log('Sim')
+    if(click == 0){
+        display.style.backgroundImage = img1;
+    }else if(click == 1){
+        display.style.backgroundImage = img2;
+    }else if(click == 2){
+        display.style.backgroundImage = img3;
+    }else if(click == 3){
+        display.style.backgroundImage = img4;
+    }else{
+        click = 0
+        display.style.backgroundImage = img1;
+    }
+    click = click + 1
+}
+
+trocarImagem();     
+
+setInterval(trocarImagem, 4000)
