@@ -18,11 +18,13 @@
                 </div>
                 <div class="login__form">
                     <form action="" class="login__form--form">
-                        <div class="login__form--form_email">
-                            <input type="text" class="login__form--form_email-input" placeholder="Telefone, nome de usuário ou email">
+                        <div class="login__form--form_email" id="email">
+                            <input type="text" class="login__form--form_email-input" placeholder="Telefone, nome de usuário ou email" id="input-email">
                         </div>
-                        <div class="login__form--form_pass">
-                            <input type="password" class="login__form--form_pass-input" placeholder="Senha">
+                        <div class="login__form--form_pass" id="pass">
+                            <div class="login__form--form_pass-space" id="space">
+                                <input type="password" class="login__form--form_pass-input" placeholder="Senha" id="input-pass">
+                            </div>
                         </div>
                         <div class="login__form--form_login">
                             <button type="submit" class="login__form--form_login-button">Entrar</button>
@@ -86,5 +88,6 @@
             </div>
         </div>
     </footer>
+    <script type="module" src="assets/js/script.js"></script>
 </body>
 </html>

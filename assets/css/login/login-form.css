@@ -23,6 +23,57 @@
     background-color: #fafafa;
 }
 
+.login__form--form_pass1{
+    display: flex;
+    width: 16.75rem;
+    border: 1px solid #dbdbdb;
+    height: 2.25rem;
+    margin-bottom: 0.375rem;
+    background-color: #fafafa;
+}
+
+.login__form--form_pass-space{
+    display: flex;
+    flex-direction: column;
+}
+
+.login__form--form_email-span{
+    font-size: 11px;
+    margin: 0.5rem 0 0 0.5rem;
+    color: #8e8e8e;
+}
+
+.login__form--form_email-input1{
+    width: 15.75rem;
+    border: none;
+    background-color: #fafafa;
+    padding-left: 0.5rem;
+}
+
+.login__form--form_email-span{
+    font-size: 11px;
+    margin: 0.5rem 0 0 0.5rem;
+    color: #8e8e8e;
+}
+
+.login__form--form_pass-span{
+    font-size: 11px;
+    margin: 0.1rem 0 0 0.5rem;
+    color: #8e8e8e;
+}
+
+.login__form--form_pass-input1{
+    width: 11.025rem;
+    border: none;
+    background-color: #fafafa;
+    padding-left: 0.5rem;
+}
+
+.login__form--form_pass-input1:focus, .login__form--form_email-input1:focus{
+    border: none;
+    outline: none;
+}
+
 .login__form--form_pass-input, .login__form--form_email-input{
     width: 15.75rem;
     padding: 9px 0 8px 7px;
@@ -33,6 +84,14 @@
 .login__form--form_pass-input:focus, .login__form--form_email-input:focus{
     border: none;
     outline: none;
+}
+
+.login__form--form_pass-button{
+    width: calc(15.75rem - 11.025rem);
+    background-color: transparent;
+    height: 2.3rem;
+    border: none;
+    cursor: pointer;
 }
 
 .login__form--form_login{
